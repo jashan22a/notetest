@@ -90,7 +90,7 @@ const TextEditor = () => {
   }, [autoSavedContent]);
 console.log("notes",notes)
   return (
-  <><h1 className='text-center text-3xl'>Add Note</h1>
+  <><h1 className='text-center text-3xl'>--Add Note--</h1>
     <div className="max-w-2xl mt-12 mx-auto p-5 border border-gray-300 rounded-lg shadow-lg bg-white">
       <div className="!h-92 border border-gray-300 rounded-lg mb-5" ref={editorRef} />
       <button 
