@@ -86,7 +86,7 @@ const TextEditor = () => {
       }
     }, 5000);
 
-    // return () => clearInterval(interval);
+    return () => clearInterval(interval);
   }, [autoSavedContent]);
 console.log("notes",notes)
   return (
